@@ -203,7 +203,7 @@ header .quotation{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom; 
-    transition: all .8s ease-out;
+    transition: all 1.5s ease-out;
 }
 #contact h3{
     color: var(--gold);

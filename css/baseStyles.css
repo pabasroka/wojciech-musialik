@@ -32,5 +32,5 @@ body{
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--nav); 
+  background: var(--gold);
 }

@@ -1,7 +1,47 @@
 @media screen and (min-width: 960px){
     
     body{
-        font-size: 18px;
+        font-size: 24px;
+    }
+
+    .site-nav h1{
+        font-size: 1.6em;
+    }
+
+    /*#contact ul{
+        text-align: center;
+    }
+    #contact ul li{
+        max-width: 500px;
+        width: 80%;
+        height: 90%;
+        justify-self: center;
+        align-self: center;
+    }*/
+
+    #contact ul{
+        margin: 40px 0;
+    }
+    #contact ul li{
+        /*width: 300px;
+        height: 120px;*/
+        width: 90%;
+        font-size: 0.9em;
+        grid-column: span 3;
+        text-align: center;
+    }
+    #contact .grid{
+        gap: 20px;
+    }
+
+    #about-me img{
+        max-width: 324px;
+        max-height: 500px;
+    }
+    #about-me .leading{
+        font-size: 1.2em;
+        justify-self: center;
+        align-self: center;
     }
 
 }

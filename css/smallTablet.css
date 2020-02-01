@@ -1,5 +1,8 @@
 @media screen and (min-width: 620px){
 
+    body{
+        font-size: 20px;
+    }
     .site-nav .hamburger{
         display: none;
     }
@@ -19,7 +22,6 @@
     .desktopMenu{
         grid-column: 6/13;
     }
-
     .desktopMenuLi {
         display: flex;
         grid-column: span 1;
@@ -27,10 +29,33 @@
         float: left;
         margin: 0 10px;
     }
-
     .desktopMenuLi a:hover{
         color: var(--gold);
         transition: all .3s ease-in-out;
+    }
+
+    #about-me .leading{
+        font-size: 1.4em;
+        padding: 15px;
+        padding-left: 30px;
+    }
+
+    #video-about-me iframe{
+        height: 1000px;
+    }
+    #sports iframe{
+        height: 1000px;
+    }
+
+    #sports h3{
+        font-size: 1.4em;
+    }
+    
+    #contact ul li{
+        font-size: 1.2em;
+    }
+    #contact ul li i{
+        font-size: 2em;
     }
 
 
