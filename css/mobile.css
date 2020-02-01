@@ -4,7 +4,7 @@
 }
 .site-nav{
     padding: 10px 20px;
-    border-bottom: 2px solid var(--fonts2);
+    border-bottom: 2px solid var(--gold);
 }
 .site-nav h1{
     text-shadow: 2px 2px black;
@@ -14,6 +14,7 @@
 }
 .site-nav h1:hover{
     letter-spacing: .5px;
+    border-bottom: .5px solid var(--gold);
 }
 nav.site-nav.grid{
     background: var(--nav);
@@ -41,7 +42,8 @@ nav.site-nav.grid{
     text-align: center;
 }
 .navigation__list a:hover{
-    color: rgb(117, 145, 223);
+    color: var(--gold);
+    transition: all .3s ease-in-out;
 }
 
 /*.hamburger__inner:hover{
@@ -50,7 +52,14 @@ nav.site-nav.grid{
 
 .quotation{
     margin: 50px 0;
-    padding: 20px
+    padding: 20px;
+}
+
+header .quotation{
+    background: url(/img/bg_contact2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom; 
 }
 
 #about-me{
@@ -64,7 +73,7 @@ nav.site-nav.grid{
     text-align: center;
     font-weight: bolder;
     background: var(--nav);
-    border-bottom: 2px solid var(--fonts2);
+    border-bottom: 2px solid var(--gold);
 }
 
 #about-me img{
@@ -101,13 +110,13 @@ nav.site-nav.grid{
     align-self: center;
     justify-self: center;
     padding: 20px 0;
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
-.iframe-container{
+#video-about-me .iframe-container{
     grid-column: span 12;
     text-align: center;
-    border-bottom: 2px solid var(--fonts2);
+    border-bottom: 2px solid var(--gold);
 }
 .iframe-container iframe{
     width: 80%;
@@ -119,6 +128,94 @@ nav.site-nav.grid{
     border-radius: 5px;
 }
 
-.footer{
 
+#sports h3{
+    grid-column: span 12;
+    padding: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+#sports .leading{
+    grid-column: span 12;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    color: var(--fonts2);
+}
+#sports .iframe-container{
+    grid-column: span 12;
+    text-align: center;
+}
+
+#contact{
+    padding-top: 25px;
+    background: #07005c;
+    border-top: 2px solid var(--fonts2);
+}
+#contact h3{
+    text-align: center;
+    font-size: 1.4em;
+}
+#contact .degree{
+    margin-top: 10px;
+    color: var(--fonts2);
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+#contact .degree::after{
+    content: '';
+    position: absolute;
+}
+#contact ul a{
+    color: var(--fonts2);
+}
+#contact ul{
+    color: var(--fonts2);
+    margin-top: 40px;
+}
+#contact li{
+    padding: 10px;
+    background: var(--primary);
+    grid-column: span 6;
+    text-align: center;
+    border-radius: 10px;
+    background: var(--nav);
+}
+#contact li i{
+    margin-top: 10px;
+    font-size: 25px;
+}
+#contact ul li a:hover{
+    color: var(--gold);
+    transition: all .3s ease-in-out;
+}
+#contact .grid{
+    gap: 15px;
+    padding: 15px;
+    border-bottom: 2px solid var(--gold);
+}
+#contact li:hover{
+    background: url(/img/bg_contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom; 
+    transition: all .8s ease-out;
+}
+#contact h3{
+    color: var(--gold);
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.footer .grid{
+    grid-column: span 12;
+}
+
+.copyright{
+    grid-column: span 12;
+    text-align: center;
+    color: var(--fonts2);
+    font-size: 0.8em;
+    padding: 15px 0;
+    background: var(--nav);
 }

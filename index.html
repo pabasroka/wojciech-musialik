@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Wojciech Musialik</title>
 </head>
 <body>
@@ -13,7 +14,7 @@
     <!-- NAWIGACJA  -->
 
     <nav class="site-nav grid">
-        <h1>Wojciech Musialik</h1>
+        <h1>Wojciech <span style="color: rgb(241, 222, 42)">Musialik</span></h1>
 
         <span class="language">
             <a id="eng" href="#eng" data-reload><img src="img/united-states-flag-icon.ico" alt="English/American"></a> <!-- zdjecia sa tymczasowe -->
@@ -34,24 +35,28 @@
                     <li><a href="projects.html ">Projects and publications</a></li>
                     <li><a href="prosthetist.html ">Speech prosthetist</a></li>
                     <li><a href="babel.html ">The tower of Babel</a></li>
-                    <li><a href="sport.html ">Sport</a></li>
-                    <li><a href="contact.html ">Contact</a></li>
+                    <!--<li><a href="sport.html ">Sport</a></li>
+                    <li><a href="contact.html ">Contact</a></li>-->
                 </ul>
         </div>
 
     </nav>
 
+    
 
 
 
     <!-- CYTAT  -->
 
     <header class="quotation" class="grid">
-        <h2>
+        <h2 id="quotation">
             “Those who are crazy enough to think they can change
             the world usually do.” 
-            <br>~ Steve Jobs
         </h2>
+        <h2>
+             <span style="color: rgb(241, 222, 42)">~ Steve Jobs</span>
+        </h2>
+            
     </header>
 
 
@@ -59,9 +64,9 @@
     <!-- TREŚĆ  -->
 
     <section id="about-me" class="grid">
-        <h3>START of the ATLANTIS PROJECT</h3>
+        <h3 id="aboutMe">START of the ATLANTIS PROJECT</h3>
         <img src="./img/glowne.jpg" alt="Wojciech Musialik">
-        <p class="leading">
+        <p class="leading" id="main">
             I was born in Poland in the last century. Inventiveness is my life passion. <br>
             I’m lucky that I don’t have to stick to just one scientific discipline. When an idea occurs to me, 
             I don’t think whether I have the sufficient knowledge on the subject.<br>
@@ -77,7 +82,7 @@
     <!-- VIDEO -->
 
     <section id="video-about-me" class="grid">
-        <h3>Voice Prosthetics - Electronic Larynx</h3>
+        <h3 id="video1">Voice Prosthetics - Electronic Larynx</h3>
         <div class="iframe-container">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/jKpbn8W66ps" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -89,22 +94,65 @@
 
     <!-- SPORT -->
 
+    <section id="sports" class="grid">
+        <h3 id="sport">Something about sports</h3>
+        <p class="leading" id="sportMain">
+            I’m not a spectator, I don’t like watching sport. For this reason,
+            I’m in the minority. Oh, well, I must deal with it. That’s not all, however,
+            I like sport when I do it myself. I’m not going to describe sports
+            disciplines that I find pleasurable. You can see everything in the film.
+        </p>
+        <div class="iframe-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vDVemATdDX4" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
 
 
 
     <!-- KONTAKT -->
 
-
+    <section id="contact">
+        <h3 id="contactt">Contact</h3>
+        <p class="degree" id="degree">M.Sc. Eng.   
+        Wojciech Musialik</p>
+        <ul class="grid">
+            <li>
+                <a href="https://www.youtube.com/channel/UCt9CUI4wV4z0Jiw_L6JBy6g" target="_blank">
+                    <span id="yt">Check out my youtube channel</span> <br><i class="fa fa-youtube" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCt9CUI4wV4z0Jiw_L6JBy6g" target="_blank">
+                    Facebook<br><i class="fa fa-facebook-square" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li id="email">
+                <a href="mailto:wm@wm.biz.pl">E-mail: wm@wm.biz.pl
+                    <br><i class="fa fa-envelope" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href=""><span id="website">My other website</span>
+                    <br><i class="fa fa-desktop" aria-hidden="true"></i>
+                </a>
+            </li>
+            
+        </ul>
+    </section>
 
 
 
     <!-- STOPKA -->
 
-    <footer class="footer">
-        footer
+    <footer class="footer grid">
+        <p class="copyright">
+            Copyright &copy All rights reserved
+        </p>
     </footer>
 
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="js/hamburger.js"></script>
+    <script src="js/translationIndex.js"></script>
 </body>
 </html>

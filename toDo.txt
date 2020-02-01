@@ -3,8 +3,10 @@ education.html
 projects.html
 prosthetist.html
 babel.html
-sport.html
-contact.html
+
+without:
+    sport.html
+    contact.html
 
 
 
