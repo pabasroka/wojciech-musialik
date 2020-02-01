@@ -1,0 +1,124 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.site-nav{
+    padding: 10px 20px;
+    border-bottom: 2px solid var(--fonts2);
+}
+.site-nav h1{
+    text-shadow: 2px 2px black;
+    transition: all .5s ease-in-out;
+    text-align: center;
+    border-bottom: .5px solid var(--fonts2);
+}
+.site-nav h1:hover{
+    letter-spacing: .5px;
+}
+nav.site-nav.grid{
+    background: var(--nav);
+}
+.site-nav h1{
+    grid-column: 1/8;
+}
+.site-nav .language{
+    grid-column: 9/10;
+    display: flex;
+    justify-content: flex-end;
+}
+.site-nav .hamburger{
+    grid-column: 12/13;
+}
+/*.site-nav ul{
+    display: none;
+}*/
+.site-nav ul a{
+    color: white;
+}
+
+.navigation__list li{
+    padding: 10px;
+    text-align: center;
+}
+.navigation__list a:hover{
+    color: rgb(117, 145, 223);
+}
+
+/*.hamburger__inner:hover{
+    color: rgb(117, 145, 223);
+}*/
+
+.quotation{
+    margin: 50px 0;
+    padding: 20px
+}
+
+#about-me{
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+#about-me h3{
+    grid-column: span 12;
+    padding: 30px;
+    text-align: center;
+    font-weight: bolder;
+    background: var(--nav);
+    border-bottom: 2px solid var(--fonts2);
+}
+
+#about-me img{
+    grid-column: 1/6;
+    width: 100%;
+    padding: 5px;
+    justify-self: center;
+    align-self: center;
+    border: 1px solid #fefefe;
+    border-radius: 4px;
+    padding: 5px;
+    margin-left: 15px;
+    background:#0405570e;
+    /*background: #040557;*/
+}
+
+#about-me img:hover {
+  box-shadow: 0 0 2px 1px var(--fonts2);
+  background:#fefefe4b;
+  transition: all .2s ease-in-out;
+}
+
+#about-me .leading{
+    grid-column: 6/13;
+    padding: 0 10px;
+    color: var(--fonts2);
+}
+
+#video-about-me{
+    background: var(--nav);
+}
+#video-about-me h3{ 
+    grid-column: span 12;
+    align-self: center;
+    justify-self: center;
+    padding: 20px 0;
+    font-size: 1.3em;
+}
+
+.iframe-container{
+    grid-column: span 12;
+    text-align: center;
+    border-bottom: 2px solid var(--fonts2);
+}
+.iframe-container iframe{
+    width: 80%;
+    height: 100%;
+    max-width: 560px;
+    max-height: 315px;
+    margin-bottom: 20px;
+    border: 3px solid var(--fonts2);
+    border-radius: 5px;
+}
+
+.footer{
+
+}

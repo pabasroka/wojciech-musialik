@@ -1,0 +1,17 @@
+body{
+    background: var(--primary);
+    overflow-x: hidden;
+    font-family: 'Rubik Regular';
+}
+#pl img{
+    width: 25px;
+    height: 25px;
+}
+#eng img{
+    width: 25px;
+    height: 25px;
+}
+#pl:hover, #eng:hover{
+    opacity: 0.8;
+    transition: all .2s ease-in-out;
+}

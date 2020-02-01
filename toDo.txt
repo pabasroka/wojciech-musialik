@@ -1,0 +1,39 @@
+index.html      //about me
+education.html      
+projects.html
+prosthetist.html
+babel.html
+sport.html
+contact.html
+
+
+
+
+linki do yt
+
+
+
+img/
+
+
+
+js/translation/index.html
+js/translation/education.html 
+js/translation/projects.html
+js/translation/prosthetist.html
+js/translation/babel.html
+js/translation/sport.html
+js/translation/contact.html
+js/szmerybajery
+
+albo osobne pliki json z tlumaczeniem poszczegolnych stron (import js)
+
+
+
+css/style.css
+css/baseStyles.css
+css/reset.css
+css/fonts.css
+css/mobile.css
+css/tablet.css
+css/desktop.css
