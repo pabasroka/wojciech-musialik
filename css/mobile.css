@@ -45,6 +45,10 @@ nav.site-nav.grid{
     color: var(--gold);
     transition: all .3s ease-in-out;
 }
+.desktopMenuLi{
+    display: none;
+}
+
 
 /*.hamburger__inner:hover{
     color: rgb(117, 145, 223);

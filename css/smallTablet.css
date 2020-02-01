@@ -3,22 +3,58 @@
     .site-nav .hamburger{
         display: none;
     }
+   .site-nav{
+        padding: 10px 20px;
+        border-bottom: 2px solid var(--gold);
+    }
     .site-nav h1{
-        grid-column: 1/4;
+        grid-column: 1/5;
     }
     .site-nav .language{
-        grid-column: 4/5;
+        grid-column: 5/6;
         display: flex;
         justify-content: flex-end;
     }
-    .site-nav ul{ 
-        display: flex;
-        margin-left: 20px;
-        grid-column: 5/13;
+
+    .desktopMenu{
+        grid-column: 6/13;
     }
-    .site-nav ul a{ 
+
+    .desktopMenuLi {
         display: flex;
+        grid-column: span 1;
+        width: 4fr;
+        float: left;
+        margin: 0 10px;
     }
+
+    .desktopMenuLi a:hover{
+        color: var(--gold);
+        transition: all .3s ease-in-out;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

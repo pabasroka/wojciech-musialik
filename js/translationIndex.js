@@ -37,6 +37,16 @@ const language = {
         degree: `M.Sc. Eng. Wojciech Musialik`,
         yt: `Check out my youtube channel`,
         website: `My other website`,
+        ulIndex: `About me`,
+        uledu: `Education`,
+        ulproj: `Projects and publications`,
+        ulpros: `Speech prosthetist`,
+        ulbabel: `The tower of Babel`,
+        ulIndex1: `About me`,
+        uledu1: `Education`,
+        ulproj1: `Projects and publications`,
+        ulpros1: `Speech prosthetist`,
+        ulbabel1: `The tower of Babel`,
 
     },
     pl: {
@@ -53,6 +63,16 @@ const language = {
         degree: `mgr inż. Wojciech Musialik`,
         yt: `Sprawdź mój kanał na YouTube`,
         website: `Moja strona internetowa`,
+        ulIndex: `O mnie`,
+        uledu: `Education`,
+        ulproj: `Projekty i publikacje`,
+        ulpros: `Protetyka mowy`,
+        ulbabel: `Wieża Babel`,
+        ulIndex1: `O mnie`,
+        uledu1: `Edukacja`,
+        ulproj1: `Projekty i publikacje`,
+        ulpros1: `Protetyka mowy`,
+        ulbabel1: `Wieża Babel`,
 
         }
 };
@@ -70,6 +90,16 @@ if (window.location.hash) {
         degree.textContent = language.pl.degree;
         yt.textContent = language.pl.yt;
         website.textContent = language.pl.website;
+        ulIndex.textContent = language.pl.ulIndex;
+        uledu.textContent = language.pl.uledu;
+        ulproj.textContent = language.pl.ulproj;
+        ulpros.textContent = language.pl.ulpros;
+        ulbabel.textContent = language.pl.ulbabel;
+        ulIndex1.textContent = language.pl.ulIndex1;
+        uledu1.textContent = language.pl.uledu1;
+        ulproj1.textContent = language.pl.ulproj1;
+        ulpros1.textContent = language.pl.ulpros1;
+        ulbabel1.textContent = language.pl.ulbabel1;
     }
 }
 
